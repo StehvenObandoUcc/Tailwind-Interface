@@ -10,11 +10,9 @@ export default function Home() {
           src="/fondo.jpg"
           alt="visionOS Background Room"
           fill
-          className="object-cover object-center filter blur-[6px] scale-[1.03]"
+          className="object-cover object-center"
           priority
         />
-        {/* Dark / Translucent overlay for maximum legibility */}
-        <div className="absolute inset-0 bg-black/35 backdrop-brightness-[0.85]" />
       </div>
 
       {/* Main Container */}
